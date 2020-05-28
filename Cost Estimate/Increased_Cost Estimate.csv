@@ -1,0 +1,28 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,0,1301,15612.00,USD,"Operating system (Linux), Quantity (20), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,1900,22800.00,USD,"Hosted Zones (10), Basic Checks Within AWS (1000)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,965.7,11588.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,1427.26,17127.12,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,850.45,10205.40,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),S3 Standard,0,1178.32,14139.84,USD,S3 Standard storage (50 TB per month)
+My Estimate,US East (N. Virginia),S3 Intelligent - Tiering,0,1.15,13.80,USD,S3 INT storage (50 GB per month)
+My Estimate,US East (N. Virginia),S3 Storage Management,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 100 TB per month 
+ Outbound (to: Amazon Cloud Front) 100 TB per month 
+"
+My Estimate,US East (N. Virginia),Amazon CloudWatch,0,816.608,9799.30,USD,
+My Estimate,US West (N. California),Amazon EC2,0,1619.6,19435.20,USD,"Operating system (Linux), Quantity (20), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
+My Estimate,US West (N. California),Amazon RDS for MySQL,0,1697.82,20373.84,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB)"
+My Estimate,US West (N. California),Elastic Load Balancing,0,854.39,10252.68,USD,Number of Application Load Balancers (2)
+My Estimate,US West (N. California),Amazon Virtual Private Cloud (VPC),0,1030.08,12360.96,USD,Number of NAT Gateways (2)
+My Estimate,US West (N. California),Amazon Route 53,0,1900,22800.00,USD,"Hosted Zones (10), Basic Checks Within AWS (1000)"
+My Estimate,US West (N. California),S3 Standard,0,1332.02,15984.24,USD,S3 Standard storage (50 TB per month)
+My Estimate,US West (N. California),S3 Intelligent - Tiering,0,1.3,15.60,USD,S3 INT storage (50 GB per month)
+My Estimate,US West (N. California),S3 Storage Management,0,0,0.00,USD,
+My Estimate,US West (N. California),Data Transfer,0,0,0.00,USD,Data Transfer
+
+
+
+"Added one more region (N. California) as redundancy so that we can failover when there is a region wide outage.
+S3 can also perform Cross Region Replication.
+Another option was to switch to Amazon DynamoDB instead that could provide even faster access and global tables"

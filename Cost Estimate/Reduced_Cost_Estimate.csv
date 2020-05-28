@@ -1,0 +1,21 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,8760,60,9480.00,USD,"Operating system (Linux), Quantity (20), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (c5.large)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,1900,22800.00,USD,"Hosted Zones (10), Basic Checks Within AWS (1000)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,965.7,11588.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,1791,1177.6,15922.20,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB), Instance type (db.m5.large)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,850.45,10205.40,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),S3 Standard,0,471.76,5661.12,USD,S3 Standard storage (20 TB per month)
+My Estimate,US East (N. Virginia),S3 Intelligent - Tiering,0,1.84,22.08,USD,S3 INT storage (80 GB per month)
+My Estimate,US East (N. Virginia),S3 Storage Management,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD,Data Transfer
+My Estimate,US East (N. Virginia),Amazon CloudWatch,0,816.608,9799.30,USD,
+
+
+
+"Increased the S3 Intelligent Tiering storage 50TB per month to 80TB (as only the newly uploaded pictures will be accessed more frequently).
+From the Business Support plan, get down to Developer plan.
+Instead of the on demand EC2 instances, pay upfront for the 1 year standard reserved instances. 
+Instead of the RDS on demand instances, pay upfront for the 1 year standard reserved instances.
+Paying upfront for 1 year has a risk associated with it, but if the application is mature or the company can reuse the resources in some other way, reserved can save a lot of cost.
+Another option could have been to move to a region where cost is less (if not too far from End-Customers).
+"
