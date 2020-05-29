@@ -1,0 +1,25 @@
+
+Plan: 4 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+aws_iam_policy.lambda_logging: Creating...
+aws_iam_role.lambda_exec: Creating...
+aws_iam_role.lambda_exec: Creation complete after 3s [id=serverless_example_lambda]
+aws_lambda_function.lambda: Creating...
+aws_iam_policy.lambda_logging: Creation complete after 5s [id=arn:aws:iam::894459228984:policy/lambda_logging]
+aws_iam_role_policy_attachment.lambda_logs: Creating...
+aws_iam_role_policy_attachment.lambda_logs: Creation complete after 3s [id=serverless_example_lambda-20200529172525171900000001]
+aws_lambda_function.lambda: Still creating... [10s elapsed]
+aws_lambda_function.lambda: Creation complete after 19s [id=greet_lambda]
+data.aws_lambda_invocation.example: Refreshing state...
+
+Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+Lambda-Execution-Result = {"message": "Hello from Lambda!"}
