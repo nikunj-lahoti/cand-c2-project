@@ -20,4 +20,5 @@ Instead of the on demand EC2 instances, pay upfront for the 1 year standard rese
 Instead of the RDS on demand instances, pay upfront for the 1 year standard reserved instances.
 Paying upfront for 1 year has a risk associated with it, but if the application is mature or the company can reuse the resources in some other way, reserved can save a lot of cost.
 Another option could have been to move to a region where cost is less (if not too far from End-Customers).
+https://calculator.aws/#/estimate?id=abe957c81a68f1f310d8392ed77a64b723629331
 "

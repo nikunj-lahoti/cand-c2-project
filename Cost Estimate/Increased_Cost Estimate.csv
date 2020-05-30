@@ -29,4 +29,5 @@ My Estimate,US West (N. California),Elastic Load Balancing,0,632.8,7593.60,USD,"
 
 "Added one more region (N. California) as redundancy so that we can failover when there is a region wide outage.
 S3 can also perform Cross Region Replication.
-Another option was to switch to Amazon DynamoDB instead that could provide even faster access and global tables"
+Another option was to switch to Amazon DynamoDB instead that could provide even faster access and global tables.
+https://calculator.aws/#/estimate?id=5636a72a265412f5b76cb83278bc100f6f856b3a"
