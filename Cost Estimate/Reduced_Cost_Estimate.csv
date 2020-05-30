@@ -1,6 +1,6 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
 My Estimate,US East (N. Virginia),Amazon EC2,8760,60,9480.00,USD,"Operating system (Linux), Quantity (20), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (c5.large)"
-My Estimate,US East (N. Virginia),Amazon Route 53,0,1900,22800.00,USD,"Hosted Zones (10), Basic Checks Within AWS (1000)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,1275,15300.00,USD,"Hosted Zones (10), Basic Checks Within AWS (500)"
 My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,965.7,11588.40,USD,Number of NAT Gateways (2)
 My Estimate,US East (N. Virginia),Amazon RDS for MySQL,1791,1177.6,15922.20,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB), Instance type (db.m5.large)"
 My Estimate,US East (N. Virginia),Elastic Load Balancing,0,850.45,10205.40,USD,Number of Application Load Balancers (2)
@@ -9,6 +9,8 @@ My Estimate,US East (N. Virginia),S3 Intelligent - Tiering,0,1.84,22.08,USD,S3 I
 My Estimate,US East (N. Virginia),S3 Storage Management,0,0,0.00,USD,
 My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD,Data Transfer
 My Estimate,US East (N. Virginia),Amazon CloudWatch,0,816.608,9799.30,USD,
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,7.3,87.60,USD,"Number of EIPs per instance (2), Number of EC2 instances (2)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,630.8299999999999,7569.96,USD,"Number of Network Load Balancers (1), Average number of new TCP connections (100 per second), Average TCP connection duration (20 seconds), Processed bytes per NLB for TCP (100 TB per month), Processed bytes per NLB for UDP (0 GB per hour)"
 
 
 
